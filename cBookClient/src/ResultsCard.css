@@ -1,0 +1,28 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 13fr;
+} 
+ 
+.spacer {
+} 
+  
+.topLabel {
+    font-size: x-large;
+    font-weight: bold;
+}
+  
+.info {
+    padding-top: 10px;
+}
+
+.infoEntry {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.noEntry {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: gray;
+}

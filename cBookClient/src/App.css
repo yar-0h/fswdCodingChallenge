@@ -1,0 +1,23 @@
+.App {
+  min-height: 70vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 12fr;
+  align-items: top;
+  justify-content:baseline;
+  margin-left: 35px;
+  margin-top: 50px;
+} 
+
+.searchBlock {
+  width: 500px;
+}
+
+.errorBlock {
+  width: 500px;
+  color: darkred;
+  font-weight: bold;
+}
+
+.resultsBlock {
+  width: 500px;
+}
